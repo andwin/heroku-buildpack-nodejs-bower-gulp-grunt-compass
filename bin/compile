@@ -201,7 +201,7 @@ export PATH="$GEM_HOME/bin:$PATH"
   bundle install 2>&1 | indent
 
   # Run compass
-  HOME=$build_dir bundle exec compass compile
+  # HOME=$build_dir bundle exec compass compile
 )
 
 # cache ruby gems compass
